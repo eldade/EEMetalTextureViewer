@@ -34,6 +34,7 @@
 		512F31641DC1B15900F445B3 /* EEPixelBufferViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EEPixelBufferViewer.swift; path = ../EEMetalTextureViewer/EEPixelBufferViewer.swift; sourceTree = "<group>"; };
 		512F31661DC30EC000F445B3 /* EECVImageBufferViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EECVImageBufferViewer.swift; path = ../EEMetalTextureViewer/EECVImageBufferViewer.swift; sourceTree = "<group>"; };
 		51383E7B228A5C9900687FF2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		51383E7D228A91DC00687FF2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		516C56161D93325200DCA09B /* EEMetalPixelViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEMetalPixelViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		516C56191D93325200DCA09B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../Sample App/AppDelegate.swift"; sourceTree = "<group>"; };
 		516C561B1D93325200DCA09B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../Sample App/ViewController.swift"; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		516C560D1D93325200DCA09B = {
 			isa = PBXGroup;
 			children = (
+				51383E7D228A91DC00687FF2 /* README.md */,
 				51517E45228A01E6003C4476 /* Sample App */,
 				51D7653D1DA6F7BE00BAC303 /* Sample Images */,
 				51517E46228A0203003C4476 /* Engine */,
