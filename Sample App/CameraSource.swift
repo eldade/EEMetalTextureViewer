@@ -153,9 +153,9 @@ class CameraSource : NSObject, PixelSource, AVCaptureVideoDataOutputSampleBuffer
                 videoDevice?.activeVideoMaxFrameDuration = frameDuration
                 videoDevice?.activeVideoMinFrameDuration = frameDuration
                 
-                videoDevice?.setFocusModeLocked(lensPosition: 0.0, completionHandler: { (time) in
-                    
-                })
+//                videoDevice?.setFocusModeLocked(lensPosition: 0.0, completionHandler: { (time) in
+//
+//                })
                 videoDevice?.unlockForConfiguration()
             }
             else {
@@ -191,27 +191,6 @@ class CameraSource : NSObject, PixelSource, AVCaptureVideoDataOutputSampleBuffer
         
         delegate.imageSize = CGSize(width: CGFloat(dimensions.width), height: CGFloat(dimensions.height))
         delegate.renderCVImageBuffer(sourcePixelBuffer!)
-/*
-        CVPixelBufferLockBaseAddress(sourcePixelBuffer!, CVPixelBufferLockFlags.readOnly)
-        var planeDescriptors: [PVPlaneDescriptor] = []
-        
-        var planeCount = CVPixelBufferGetPlaneCount(sourcePixelBuffer!)
-        if (planeCount == 0) {
-            planeCount = 1
-        }
-        
-        for plane in 0...planeCount - 1 {
-            let size = CGSize(width: CVPixelBufferGetWidthOfPlane(sourcePixelBuffer!, plane), height: CVPixelBufferGetHeightOfPlane(sourcePixelBuffer!, plane))
-            
-            planeDescriptors.append(PVPlaneDescriptor(data: CVPixelBufferGetBaseAddressOfPlane(sourcePixelBuffer!, plane)!,
-                                                      size: size,
-                                                      rowBytes: CVPixelBufferGetBytesPerRowOfPlane(sourcePixelBuffer!, plane)))
-        }
-        
-        
-        delegate.planeDescriptors = planeDescriptors
-        delegate.render()
-        CVPixelBufferUnlockBaseAddress(sourcePixelBuffer!, CVPixelBufferLockFlags.readOnly)       */ 
     }
     
     
