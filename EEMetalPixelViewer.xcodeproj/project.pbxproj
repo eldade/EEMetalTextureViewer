@@ -11,22 +11,13 @@
 		5126CC9D1DC5A3170028D2E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C561B1D93325200DCA09B /* ViewController.swift */; };
 		512F31651DC1B15900F445B3 /* EEPixelBufferViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F31641DC1B15900F445B3 /* EEPixelBufferViewer.swift */; };
 		512F31671DC30EC000F445B3 /* EECVImageBufferViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F31661DC30EC000F445B3 /* EECVImageBufferViewer.swift */; };
-		5136DCB220DAC12200E4D19F /* EETexturelViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C56321D9346D500DCA09B /* EETexturelViewer.swift */; };
-		5136DCB320DAC12600E4D19F /* EEPixelBufferViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F31641DC1B15900F445B3 /* EEPixelBufferViewer.swift */; };
-		5136DCB520DAC12D00E4D19F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C561B1D93325200DCA09B /* ViewController.swift */; };
-		5136DCB720DAC12D00E4D19F /* CVPixelFormatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126CC991DC513EC0028D2E7 /* CVPixelFormatInfo.swift */; };
-		5136DCB820DAC12D00E4D19F /* CameraSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA2B2E1DA2242E00C16A32 /* CameraSource.swift */; };
-		5136DCB920DAC12D00E4D19F /* StillImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7653B1DA6F74500BAC303 /* StillImageSource.swift */; };
-		5136DCBA20DAC13800E4D19F /* EETextureViewer.metal in Sources */ = {isa = PBXBuildFile; fileRef = 516C56341D9360E700DCA09B /* EETextureViewer.metal */; };
-		5136DCBB20DB6C7B00E4D19F /* EECVImageBufferViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F31661DC30EC000F445B3 /* EECVImageBufferViewer.swift */; };
 		51383E7C228A5C9900687FF2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51383E7B228A5C9900687FF2 /* CoreVideo.framework */; };
-		51517E47228A0259003C4476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C56191D93325200DCA09B /* AppDelegate.swift */; };
 		516C561A1D93325200DCA09B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C56191D93325200DCA09B /* AppDelegate.swift */; };
 		516C561F1D93325200DCA09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516C561D1D93325200DCA09B /* Main.storyboard */; };
 		516C56211D93325200DCA09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516C56201D93325200DCA09B /* Assets.xcassets */; };
 		516C562E1D9332B400DCA09B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516C562C1D9332B400DCA09B /* Metal.framework */; };
 		516C562F1D9332B400DCA09B /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516C562D1D9332B400DCA09B /* MetalKit.framework */; };
-		516C56331D9346D500DCA09B /* EETexturelViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C56321D9346D500DCA09B /* EETexturelViewer.swift */; };
+		516C56331D9346D500DCA09B /* EETextureViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C56321D9346D500DCA09B /* EETextureViewer.swift */; };
 		516C56351D9360E700DCA09B /* EETextureViewer.metal in Sources */ = {isa = PBXBuildFile; fileRef = 516C56341D9360E700DCA09B /* EETextureViewer.metal */; };
 		51910B751DA0E7C200AECC50 /* ContentModes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51910B741DA0E7C200AECC50 /* ContentModes.plist */; };
 		51AA2B2D1DA1772200C16A32 /* PixelFormats.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51AA2B2C1DA1772200C16A32 /* PixelFormats.plist */; };
@@ -42,7 +33,6 @@
 		5126CC991DC513EC0028D2E7 /* CVPixelFormatInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CVPixelFormatInfo.swift; path = "../Sample App/CVPixelFormatInfo.swift"; sourceTree = "<group>"; };
 		512F31641DC1B15900F445B3 /* EEPixelBufferViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EEPixelBufferViewer.swift; path = ../EEMetalTextureViewer/EEPixelBufferViewer.swift; sourceTree = "<group>"; };
 		512F31661DC30EC000F445B3 /* EECVImageBufferViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EECVImageBufferViewer.swift; path = ../EEMetalTextureViewer/EECVImageBufferViewer.swift; sourceTree = "<group>"; };
-		5136DCA220DAC0D100E4D19F /* EEPixelViewer_macOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEPixelViewer_macOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51383E7B228A5C9900687FF2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		516C56161D93325200DCA09B /* EEMetalPixelViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEMetalPixelViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		516C56191D93325200DCA09B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../Sample App/AppDelegate.swift"; sourceTree = "<group>"; };
@@ -52,7 +42,7 @@
 		516C56251D93325200DCA09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		516C562C1D9332B400DCA09B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		516C562D1D9332B400DCA09B /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
-		516C56321D9346D500DCA09B /* EETexturelViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EETexturelViewer.swift; path = ../EEMetalTextureViewer/EETexturelViewer.swift; sourceTree = "<group>"; };
+		516C56321D9346D500DCA09B /* EETextureViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EETextureViewer.swift; path = ../EEMetalTextureViewer/EETextureViewer.swift; sourceTree = "<group>"; };
 		516C56341D9360E700DCA09B /* EETextureViewer.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = EETextureViewer.metal; path = ../EEMetalTextureViewer/EETextureViewer.metal; sourceTree = "<group>"; };
 		51910B741DA0E7C200AECC50 /* ContentModes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ContentModes.plist; path = "../Sample App/ContentModes.plist"; sourceTree = "<group>"; };
 		51AA2B2C1DA1772200C16A32 /* PixelFormats.plist */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; name = PixelFormats.plist; path = "../Sample App/PixelFormats.plist"; sourceTree = "<group>"; };
@@ -65,13 +55,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5136DC9F20DAC0D100E4D19F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		516C56131D93325200DCA09B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,7 +86,7 @@
 		51517E46228A0203003C4476 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
-				516C56321D9346D500DCA09B /* EETexturelViewer.swift */,
+				516C56321D9346D500DCA09B /* EETextureViewer.swift */,
 				516C56341D9360E700DCA09B /* EETextureViewer.metal */,
 				512F31641DC1B15900F445B3 /* EEPixelBufferViewer.swift */,
 				512F31661DC30EC000F445B3 /* EECVImageBufferViewer.swift */,
@@ -130,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				516C56161D93325200DCA09B /* EEMetalPixelViewer.app */,
-				5136DCA220DAC0D100E4D19F /* EEPixelViewer_macOSTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,23 +142,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5136DCA120DAC0D100E4D19F /* EEPixelViewer_macOSTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5136DCAF20DAC0D300E4D19F /* Build configuration list for PBXNativeTarget "EEPixelViewer_macOSTest" */;
-			buildPhases = (
-				5136DC9E20DAC0D100E4D19F /* Sources */,
-				5136DC9F20DAC0D100E4D19F /* Frameworks */,
-				5136DCA020DAC0D100E4D19F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = EEPixelViewer_macOSTest;
-			productName = EEPixelViewer_macOSTest;
-			productReference = 5136DCA220DAC0D100E4D19F /* EEPixelViewer_macOSTest.app */;
-			productType = "com.apple.product-type.application";
-		};
 		516C56151D93325200DCA09B /* EEMetalPixelViewer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 516C56281D93325200DCA09B /* Build configuration list for PBXNativeTarget "EEMetalPixelViewer" */;
@@ -204,10 +169,6 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Eldad Eilam";
 				TargetAttributes = {
-					5136DCA120DAC0D100E4D19F = {
-						CreatedOnToolsVersion = 10.0;
-						ProvisioningStyle = Automatic;
-					};
 					516C56151D93325200DCA09B = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = XPSUQMMH5W;
@@ -230,19 +191,11 @@
 			projectRoot = "";
 			targets = (
 				516C56151D93325200DCA09B /* EEMetalPixelViewer */,
-				5136DCA120DAC0D100E4D19F /* EEPixelViewer_macOSTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5136DCA020DAC0D100E4D19F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		516C56141D93325200DCA09B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,28 +214,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5136DC9E20DAC0D100E4D19F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5136DCB920DAC12D00E4D19F /* StillImageSource.swift in Sources */,
-				5136DCB520DAC12D00E4D19F /* ViewController.swift in Sources */,
-				5136DCB720DAC12D00E4D19F /* CVPixelFormatInfo.swift in Sources */,
-				5136DCB320DAC12600E4D19F /* EEPixelBufferViewer.swift in Sources */,
-				5136DCB220DAC12200E4D19F /* EETexturelViewer.swift in Sources */,
-				5136DCBA20DAC13800E4D19F /* EETextureViewer.metal in Sources */,
-				5136DCBB20DB6C7B00E4D19F /* EECVImageBufferViewer.swift in Sources */,
-				51517E47228A0259003C4476 /* AppDelegate.swift in Sources */,
-				5136DCB820DAC12D00E4D19F /* CameraSource.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		516C56121D93325200DCA09B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5126CC9D1DC5A3170028D2E7 /* ViewController.swift in Sources */,
-				516C56331D9346D500DCA09B /* EETexturelViewer.swift in Sources */,
+				516C56331D9346D500DCA09B /* EETextureViewer.swift in Sources */,
 				516C56351D9360E700DCA09B /* EETextureViewer.metal in Sources */,
 				516C561A1D93325200DCA09B /* AppDelegate.swift in Sources */,
 				512F31651DC1B15900F445B3 /* EEPixelBufferViewer.swift in Sources */,
@@ -307,71 +244,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5136DCB020DAC0D300E4D19F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = EEPixelViewer_macOSTest/EEPixelViewer_macOSTest.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = EEPixelViewer_macOSTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.EEPixelViewer-macOSTest";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		5136DCB120DAC0D300E4D19F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = EEPixelViewer_macOSTest/EEPixelViewer_macOSTest.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = EEPixelViewer_macOSTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.EEPixelViewer-macOSTest";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
 		516C56261D93325200DCA09B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -498,15 +370,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5136DCAF20DAC0D300E4D19F /* Build configuration list for PBXNativeTarget "EEPixelViewer_macOSTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5136DCB020DAC0D300E4D19F /* Debug */,
-				5136DCB120DAC0D300E4D19F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		516C56111D93325200DCA09B /* Build configuration list for PBXProject "EEMetalPixelViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
