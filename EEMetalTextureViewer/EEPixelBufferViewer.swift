@@ -40,7 +40,7 @@ private struct PVInternalPlaneParameters {
     var metalPixelFormat : MTLPixelFormat
 }
 
-class EEPixelBufferViewer : EETextureViewer {
+public class EEPixelBufferViewer : EETextureViewer {
     //    private var planeCount : Int = 0
     
     private var planeParameters : [PVInternalPlaneParameters] = []
