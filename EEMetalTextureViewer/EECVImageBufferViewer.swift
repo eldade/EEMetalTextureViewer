@@ -11,7 +11,7 @@ import Foundation
 import Metal
 import CoreVideo
 
-class EECVImageBufferViewer : EEPixelBufferViewer {
+public class EECVImageBufferViewer : EEPixelBufferViewer {
     
     var textureCache : CVMetalTextureCache?
     
@@ -31,7 +31,7 @@ class EECVImageBufferViewer : EEPixelBufferViewer {
         CVMetalTextureCacheFlush(textureCache!, 0)
     }
     
-    override var device: MTLDevice! {
+    public override var device: MTLDevice! {
         didSet {
             initializeCVImageBufferViewer()
         }
@@ -49,7 +49,7 @@ class EECVImageBufferViewer : EEPixelBufferViewer {
         }
     }
     
-    func presetCVImageBuffer(imageBuffer : CVImageBuffer) {
+    public func presetCVImageBuffer(imageBuffer : CVImageBuffer) {
         var metalPixelFormat : MTLPixelFormat
         
         assert (imageBuffer != nil)

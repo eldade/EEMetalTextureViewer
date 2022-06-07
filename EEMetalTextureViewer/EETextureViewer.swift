@@ -10,7 +10,7 @@ import UIKit
 import MetalKit
 import MetalPerformanceShaders
 
-class EETextureViewer: MTKView {
+public class EETextureViewer: MTKView {
     
 //    #if DEBUG
     
@@ -270,7 +270,7 @@ class EETextureViewer: MTKView {
         return calculatedVertexes
     }
     
-    override func layoutSubviews() {
+  public override func layoutSubviews() {
         super.layoutSubviews()
         setupVertexBuffer()
         statsView.frame = CGRect(x: 0, y: 0, width: self.bounds.size.width, height: 50)
@@ -283,7 +283,7 @@ class EETextureViewer: MTKView {
         intermediateTexture = device.makeTexture(descriptor: texDesc)
     }
     
-    override var contentMode: UIView.ContentMode {
+  public override var contentMode: UIView.ContentMode {
         didSet {
             if (contentMode != oldValue) {
                 setupVertexBuffer()
@@ -306,7 +306,7 @@ class EETextureViewer: MTKView {
                                                      options: .storageModeShared))
     }
     
-    var sourceImageSize : CGSize? = nil {
+    public var sourceImageSize : CGSize? = nil {
         didSet {
             if (sourceImageSize != oldValue)
             {
@@ -329,12 +329,13 @@ class EETextureViewer: MTKView {
                                   options: .storageModeShared)!
     }
 
-    override var device: MTLDevice! {
+  public override var device: MTLDevice! {
         didSet {
             super.device = device
             commandQueue = (self.device?.makeCommandQueue())!
-            
-            library = device?.makeDefaultLibrary()
+
+            let frameworkBundle = Bundle(for: type(of: self))
+            library = try? device?.makeDefaultLibrary(bundle: frameworkBundle)
             pipelineDescriptor.vertexFunction = library?.makeFunction(name: "vertex_passthrough")
             pipelineDescriptor.fragmentFunction = library?.makeFunction(name: "basic_fragment")
             pipelineDescriptor.colorAttachments[0].pixelFormat = .bgra8Unorm
@@ -365,7 +366,7 @@ class EETextureViewer: MTKView {
         }
     }
     
-    var pixelFormat : OSType? = nil {
+    public var pixelFormat : OSType? = nil {
         didSet {
             
             if (pixelFormat == nil || pixelFormat == oldValue) {
@@ -444,7 +445,7 @@ class EETextureViewer: MTKView {
         }
     }
 
-    override func draw(_ rect: CGRect) {
+  public override func draw(_ rect: CGRect) {
         
         let commandBuffer = commandQueue!.makeCommandBuffer()
         
